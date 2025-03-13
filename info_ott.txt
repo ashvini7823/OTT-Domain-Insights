@@ -1,0 +1,65 @@
+Project Overview & Data Insights
+
+
+1️⃣ Problem Statement (Brief)
+
+Lio, a leading telecommunications provider in India, is planning a strategic merger with Jotstar, one of the country’s most prominent streaming platforms. This potential partnership aims to combine LioCinema’s expansive subscriber base and Jotstar’s diverse content library to revolutionize digital streaming in India.  
+
+As part of the merger preparation, the management team at Lio wants to analyse the performance and user behavior of both platforms—LioCinema and Jotstar—over the past one year (January to November 2024). The goal is to gain insights into individual platform performance, content consumption patterns, subscriber growth, Inactivity behavior, upgrade and downgrade trends. The insights derived from this study will help the management make informed decisions and optimize content strategies post-merger, with the ultimate goal of  establishing Lio-Jotstar as the leading OTT platform in India.  Peter Pandey is the data analyst at Lio, and he is tasked to analyse the data and provide insights. 
+
+2️⃣ Dataset & Data Preparation
+
+✅ Merged dataset from both platforms for unified analysis.
+✅ Both platforms have identical table structures and columns.
+✅ Platform Table Created – Contains platform_id and platform_name, allowing easy filtering and analysis.
+✅ Platform ID Added – Included in all tables for accurate data relationships.
+
+3️⃣ Logic Behind Key Calculated Columns
+
+📌 Active/Inactive Users
+
+Active: Users with last_active_date = NULL (still engaged).
+Inactive: Users with a recorded last_active_date.
+December Adjustments: Users who became inactive after November 2024 are considered active for the analysis period.
+
+📌 Upgraded/Downgraded Users
+
+Upgrade: Users who moved to a higher-tier plan.
+Downgrade: Users who switched to a lower-tier or free plan.
+No Change: Users who did not change their plan (new_subscription_plan = NULL).
+December Adjustments: Plan changes after November 2024 are considered no change in plan for the analysis period.
+
+📌 Paid/Unpaid Users
+
+Paid Users: Users who subscribed to any paid plan at any point before December.
+Unpaid Users: Users who remained on a free plan throughout.
+December Adjustments: Users who switched to a paid plan after November are still counted as unpaid.
+
+📌 Subscription End Date
+
+Active Users: Assigned 30/11/2024 (end of the analysis period).
+Inactive Users: Their last active date is used.
+Plan-Changing Users: Their last date before plan change is considered.
+December Adjustments: Users who changed plans in December have their end date as 30/11/2024.
+
+📌 Revenue Calculation
+
+Revenue based on subscription plan pricing per platform.
+Active months calculated separately before and after plan changes.
+Final revenue includes two values:
+1. Total revenue per user
+2. Revenue after plan change (if applicable)
+
+4️⃣ Key Measures (KPIs)
+🔹 Premium Users – Users who stayed on a premium plan for 6+ months.
+🔹 Retention Rate – Percentage of users who subscribed for more than 6 months.
+🔹 Free-to-Paid Conversion Rate – % of users who upgraded from free to paid.
+🔹 Upgrade/Downgrade Rates – % of users who changed plans, excluding those who stayed on the same plan.
+
+5️⃣ Visual Representation & Dashboard Notes
+
+📊 Users Count by Subscription Plan
+
+Includes only initial subscriptions, not plan changes.
+Displayed in the “Subscriber Insights” section of the dashboard.
+
