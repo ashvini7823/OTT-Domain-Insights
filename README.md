@@ -1,6 +1,6 @@
 # 📊 **Insights for a Strategic Merger in the OTT Domain**  
 
-## 📌 **Overview**  
+## 📌 **Problem Statement**  
 Lio, a leading telecommunications provider in India, is planning a strategic merger with Jotstar, one of the country’s most prominent streaming platforms. This potential partnership aims to **combine LioCinema’s expansive subscriber base and Jotstar’s diverse content library** to revolutionize digital streaming in India.  
 
 As part of the merger preparation, Lio’s management team wants to **analyze the performance and user behavior** of both platforms—LioCinema and Jotstar—over the past one year (January to November 2024).  
@@ -11,6 +11,8 @@ As part of the merger preparation, Lio’s management team wants to **analyze th
 - Identify **inactivity & churn patterns**.  
 - Understand **upgrade & downgrade behaviors**.  
 - Optimize **content strategy post-merger**.  
+
+---
 
 ## 📂 **Dataset Overview**  
 The project uses three key datasets:  
@@ -23,6 +25,19 @@ The project uses three key datasets:
 
 ---
 
+## 🖼 **Data Model Diagram:**  
+
+![data model ott](https://github.com/user-attachments/assets/00530684-e962-44ce-9a75-b06685b0fb8e)
+
+---
+
+## 📊 **Key Metrics & KPIs**
+To evaluate the performance of LioCinema and Jotstar, the following KPIs and key metrics were analyzed:
+
+![Picture1 kpi](https://github.com/user-attachments/assets/d3e40a5a-ceef-43c2-b26d-ffd3d9fac5c6)
+
+---
+
 ## 📊 **Dashboard Breakdown**  
 
 ### **1️⃣ Home Page**  
@@ -30,51 +45,53 @@ The project uses three key datasets:
 - **Total Users & Content Breakdown** (Combined for both platforms).  
 - **Navigation to Dashboard Pages** for further analysis.  
 
-![Home Page](repo_files/home_page.jpg)  
+![Home Page](https://github.com/user-attachments/assets/4a74844a-1f6b-4aa3-911c-62611d06e211)
+
+
 
 ---
 
 ### **2️⃣ Subscriber Insights**  
 📌 **Analysis of user demographics, monthly growth & retention trends.**  
 - **Subscriber Acquisition Trends** 📈  
-- **User Demographics Breakdown (Age, Gender, City Tier, Plan Type).**  
+- **User Demographics Breakdown (Age, City Tier, Plan Type).**  
 
-![Subscriber Insights](repo_files/subscriber_insights.jpg)  
+![Subscriber Insights](https://github.com/user-attachments/assets/9f96f7c7-a61d-4e8e-aed4-c76094ca82d0)
 
 ---
 
-### **3️⃣ Content & Revenue Analysis**  
+### **3️⃣ Content & Revenue**  
 📌 **Examines content distribution & revenue trends.**  
-- **Total Content by Platform, Genre, and Language.**  
+- **Total Content by Content Type, Genre, and Language.**  
 - **Revenue Comparison Between LioCinema & Jotstar.**  
 
-![Content & Revenue](repo_files/content_revenue.jpg)  
+![Content & Revenue](https://github.com/user-attachments/assets/9d9836ac-d582-4735-aad7-9469ff2e23fa)
 
 ---
 
-### **4️⃣ Inactivity & Upgrade/Downgrade Analysis**  
+### **4️⃣ Inactivity & Upgrade/Downgrade**  
 📌 **Identifies patterns in user inactivity, upgrades, and downgrades.**  
 - **Inactivity Trends by Age Group, City Tier & Subscription Plan.**  
 - **Upgrade & Downgrade Patterns Across Platforms.**  
 
-![Inactivity & Upgrade/Downgrade](repo_files/inactivity_upgrade_downgrade.jpg)  
+![Inactivity & Upgrade/Downgrade](https://github.com/user-attachments/assets/aae9847c-f8ad-4bda-bfac-cd8301e192d9)
 
 ---
 
-### **5️⃣ Content Consumption Analysis**  
+### **5️⃣ Content Consumption**  
 📌 **Analysis of watch time trends across devices, demographics & user activity.**  
-- **Total Watch Time by Platform & Device.**  
+- **Average Watch Time by Platform & Device.**  
 - **Viewing Trends by User Demographics.**  
-
-![Content Consumption](repo_files/content_consumption.jpg)  
+ 
+![Content Consumption](https://github.com/user-attachments/assets/6d5bc5be-1bdb-4144-8472-bb36e754bf0e)
 
 ---
 
 ## 🔑 **Key Insights**  
 📌 **Findings from the analysis that will impact the merger strategy:**  
 
-✅ **LioCinema is growing 4x faster than Jotstar in terms of user acquisition.**  
-✅ **Jotstar has nearly 2x more content than LioCinema.**  
+✅ **LioCinema (183.45K ) is growing 4x faster than Jotstar (44.62K) in terms of user acquisition.**  
+✅ **Jotstar (2.36K) has nearly 2x more content than Liocinema (1.25K).**  
 ✅ **Jotstar’s active user rate (87.49%) is significantly higher than LioCinema’s (60.59%).**  
 ✅ **Jotstar’s average watch time (117.24 hrs) is significantly higher than LioCinema’s (25.61 hrs).**  
 ✅ **Active users have significantly higher watch time across both platforms.**  
@@ -113,14 +130,11 @@ The project uses three key datasets:
 📄 **Dashboard PDF:** [Download Here](repo_files/OTT_resume_project_dashboard.pdf)  
 📄 **Presentation PDF:** [Download Here](repo_files/OTT_resume_project_presentation.pdf)  
 📄 **Icon Credits:** [Download Here](repo_files/icon_credits.pdf)  
-🖼 **Data Model Diagram:**  
-
-![Data Model](repo_files/data_model.png)  
 
 ---
 
 ## 🙌 **Special Thanks**  
-This project is part of **CodeBasics' Resume Project Challenge 14**. Huge thanks to **CodeBasics** for this opportunity to work on a real-world OTT analytics project! 🎉  
+This project is part of **CodeBasics' Resume Project Challenge 14**. Huge thanks to **CodeBasics** for this opportunity to work on an OTT analytics project! 🎉  
 
 ---
 
