@@ -128,7 +128,7 @@ To evaluate the performance of LioCinema and Jotstar, the following KPIs and key
 
 🔗 **Live Dashboard:** [View Here](https://app.powerbi.com/view?r=eyJrIjoiYmZhNGRhYmYtNTE0ZS00MjcyLWJjZGEtMzMzZWIzYjQwNzQwIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)<br>
 📄 **Dashboard PDF:** [Download Here](https://github.com/ashvini7823/OTT-Domain-Insights/blob/92e726a3c0301003ff02468154fb9b414a0aa39b/OTT%20resume%20project%20challenge%2014%20Dashboard.pdf) <br>
-📄 **Presentation PDF:** [Download Here](https://github.com/ashvini7823/OTT-Domain-Insights/blob/92e726a3c0301003ff02468154fb9b414a0aa39b/ott%20resume%20project%20challenge%2014%20presentation.pdf) <br>
+📄 **Presentation PDF:** [Download Here](https://github.com/ashvini7823/OTT-Domain-Insights/blob/4a74abb79fbb97b07e44317ccc323e3b2dc9cb68/ott%20resume%20project%20challenge%2014%20presentation.pdf) <br>
 📄 **Icon Credits:** [Download Here](https://github.com/ashvini7823/OTT-Domain-Insights/blob/92e726a3c0301003ff02468154fb9b414a0aa39b/icon_credit_ott.txt) <br>
 📄 **Info File:** [Download Here](https://github.com/ashvini7823/OTT-Domain-Insights/blob/92e726a3c0301003ff02468154fb9b414a0aa39b/info_ott.txt) <br>
 
