@@ -131,6 +131,9 @@ To evaluate the performance of LioCinema and Jotstar, the following KPIs and key
 📄 **Presentation PDF:** [Download Here](https://github.com/ashvini7823/OTT-Domain-Insights/blob/4a74abb79fbb97b07e44317ccc323e3b2dc9cb68/ott%20resume%20project%20challenge%2014%20presentation.pdf) <br>
 📄 **Icon Credits:** [Download Here](https://github.com/ashvini7823/OTT-Domain-Insights/blob/92e726a3c0301003ff02468154fb9b414a0aa39b/icon_credit_ott.txt) <br>
 📄 **Info File:** [Download Here](https://github.com/ashvini7823/OTT-Domain-Insights/blob/92e726a3c0301003ff02468154fb9b414a0aa39b/info_ott.txt) <br>
+🎥 **Presentation Video:** [Watch Here](https://youtu.be/zQpRj2SkvR0?si=gViqjMOwD_Z60GuT) <br>
+🎥 **Dashboard Explanation Video:** [Watch Here](https://youtu.be/iZBFC_Hqads?si=qsOdybTEwsM5IlG_) <br>
+
 
 ---
 
